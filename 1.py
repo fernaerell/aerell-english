@@ -4,7 +4,7 @@
 # Is / are / do
 # Focus verb: print, get, set, check
 
-# I print text Hello World to the console
+# I print "Hello World" to the console
 print("Hello World")
 # the output like this:
 # Hello World
@@ -19,7 +19,8 @@ print(name)
 # Fern Aerell
 
 # You can get my name in variable name like this
-name # but it is not displaying in console, why? because the expression not in print function.
+name # This does not display anything because it is not inside the print function
+# Note: in python if just expression it not show, but if in REPL or Jupyter it can show.
 
 # You must put the variable into function print argument, like this:
 print(name)
@@ -66,6 +67,11 @@ print(name + name2)
 # this is from name 2 variable: Fern Aerell
 # Fern AerellFern Aerell
 
+# You can make the code above more readable just change +  to + " " +
+print(name + " " + name2)
+# Output:
+# Fern Aerell Fern Aerell
+
 # I think on python we can do this:
 print(name*10)
 # The output:
@@ -78,7 +84,7 @@ print(name*10)
 # Fern AerellFern AerellFern AerellFern AerellFern AerellFern AerellFern AerellFern AerellFern AerellFern Aerell
 
 # Haha it's cool
-# I found this feature just in python, i don't know about another language, but I first found this feature in python.
+# I found this feature in python, i don't know about another language, but I first found this feature in python.
 
-# Okay I thing this enough.
+# Okay, I think this enough.
 # Thank you.
